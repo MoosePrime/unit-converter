@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <div class="whole">
+                <div class="top">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                    <form onsubmit="false">
+                        <input type="text" id="user_input" name="user-input" placeholder="0">
+                        <br>
+                        <br>
+                        <button id="submitBtn" value="submit" for="user-input" onclick="calculate()">Submit</button>
+                    </form>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    <h2>Tempature</h2>
+                        <h3>Celcius/Farenheit</h3>
+                            <p id="temp">0 celcius = 0.000 farenheit | 0 farenheit = 0.000 celcius</p>
+                    <h2>Length</h2>
+                        <h3>Meters/Feet</h3>
+                            <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+                        <h3>Centimeters/Inches</h3>
+                            <p id="centIn">0 centimeters = 0.000 inches | 0 inches = 0.000 centimeters</p>
+                    <h2>Volume</h2>
+                        <h3>Liters/Gallons</h3>
+                            <p id="volume">0 litres = 0.000 gallons | 0 gallons = 0.000 litres</p>
+                    <h2>Mass</h2>
+                        <h3>Kilograms/Pounds</h3>
+                            <p id="mass"> 0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+                        <h3>Grams/Ounces</h3>
+                            <p id="gramOz"> 0 grams = 0.000 ounces | 0 ounces = 0.000 grams</p>
+                </div>
+            </div>
+            <script src="index.js"></script>
+        </body>
+</html>
