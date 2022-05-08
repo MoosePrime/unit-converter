@@ -49,10 +49,3 @@ function calculate() {
       
       event.preventDefault()
   }
-
-
- 
-
-
-
-
