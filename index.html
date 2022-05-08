@@ -11,8 +11,8 @@
             <div class="whole">
                 <div class="top">
                 <h1>Metric/Imperial Unit Conversion</h1>
-                    <form onsubmit="false">
-                        <input type="text" id="user_input" name="user-input" placeholder="0">
+                    <form onsubmit="calculate()">
+                        <input type="text" id="user-input" name="user-input" placeholder="0">
                         <br>
                         <br>
                         <button id="submitBtn" value="submit" for="user-input" onclick="calculate()">Submit</button>
@@ -30,7 +30,7 @@
                         <h3>Centimeters/Inches</h3>
                             <p id="centIn">0 centimeters = 0.000 inches | 0 inches = 0.000 centimeters</p>
                     <h2>Volume</h2>
-                        <h3>Liters/Gallons</h3>
+                        <h3>Litres/Gallons</h3>
                             <p id="volume">0 litres = 0.000 gallons | 0 gallons = 0.000 litres</p>
                     <h2>Mass</h2>
                         <h3>Kilograms/Pounds</h3>
